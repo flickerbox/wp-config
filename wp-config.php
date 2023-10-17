@@ -35,13 +35,12 @@ if (file_exists(dirname(__FILE__) . '/wp-config-pantheon.php') && isset($_ENV['P
 	define('WP_SITEURL',       'https://sitename.com.test');
 	define('WP_HOME',          'https://sitename.com.test');
 	define('WP_CONTENT_URL',   'https://sitename.com.test/wp-content');
-	define('DB_NAME',          'database_name_here');
-	define('DB_USER',          'username_here');
-	define('DB_PASSWORD',      'password_here');
-	define('DB_HOST',          'localhost');
+	define('DB_NAME',          'database_name');
+	define('DB_USER',          'database_username');
+	define('DB_PASSWORD',      'database_password');
+	define('DB_HOST',          'database_host');
 	define('DB_CHARSET',       'utf8');
 	define('DB_COLLATE',       '');
-	define('WP_DISABLE_FATAL_ERROR_HANDLER', true);
 	define('AUTH_KEY',         'put your unique phrase here');
 	define('SECURE_AUTH_KEY',  'put your unique phrase here');
 	define('LOGGED_IN_KEY',    'put your unique phrase here');
